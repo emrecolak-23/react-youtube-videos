@@ -2,7 +2,7 @@ import { Component } from 'react';
 
 class VideoList extends Component {
   render() {
-    return <div>Video List</div>;
+    return <div>{this.props.videos.length}</div>;
   }
 }
 
